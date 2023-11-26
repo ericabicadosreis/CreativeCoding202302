@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.image-container p {
+    margin-left:25%;
+    right: 8px;
+    font-family: 'helvetica neue', Helvetica, sans-serif; 
+    text-align: left;
+    letter-spacing: 0.1em;
+    hyphens: auto;
+    font-weight: 300; 
+    font-size: 18px; 
+    line-height: 1;
+    color:rgb(0, 0, 0)
+    
+    
+}
+
+.image-container {
+    margin-top: 30px;
+}
+
+
+

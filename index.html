@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smell it camera
+    <meta name="viewport" content="width=body-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#FFCE32">
+    <meta name="msapplication-navbutton-color" content="#FFCE32">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FFCE32">
+  </title>
+  <link rel="icon" type="image/jpg" href="src/img/favicon.ico">
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <video id="camera" width="100%" autoplay="true" playsinline="true" muted="true"></video>
+  <br>
+  <button onclick="captureImage()" id="capture" style="position: absolute;
+  top: 45%;
+  left: 35%;
+  padding: 8px;
+  border-radius: 2em;
+  border: 1px solid rgb(0, 0, 0); 
+  background-color: white;
+  box-shadow: none; 
+  font-family: 'helvetica neue', sans-serif; 
+  font-weight: 300; 
+  letter-spacing: 0.1em;
+  font-size: 15px; 
+  color: rgb(0, 0, 0);">capture image</button>
+  <br>
+  <div id="imageContainer"></div>
+  <div id="descriptionContainer"></div>
+  <canvas id="canvas" width="100%" height="auto" style="display:none;"></canvas>
+  <br>
+  <p id="output"></p>
+
+
+  <script src="src/app.js"></script>
+
+</body>
+</html>
